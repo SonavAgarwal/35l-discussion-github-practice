@@ -13,7 +13,12 @@
         <div class="grid">
             <!-- Add your card here! Copy a card below and change the name. -->
 
-            <div class="card">
+            <div class="card tony-card">
+                <style>
+                    /* @keyframes colorCycle { 0% { background-color: #ff4d4d; } 16%  { background-color: #00008B; } 33%  { background-color: #800080; } 50%  { background-color: #4dff4d; }66%  { background-color: #4dd2ff; } 83%  { background-color: #8c4dff; } 100% { background-color: #ff4da6; }} */
+                    @keyframes sizeCycle { 0% { transform: scale(1); } 50% { transform: scale(1.1); } 100% { transform: scale(1); }}
+                    .tony-card { animation: colorCycle 3s linear infinite, sizeCycle 2s linear infinite !important; }
+                </style>
                 <div class="avatar">
                     <img
                         width="100%"
