@@ -11,8 +11,95 @@
         <p class="subtitle">Add yourself by committing to this repo!</p>
 
         <div class="grid">
-            <!-- Add your card here! Copy a card below and change the name. -->
-            
+            <div class="card justice-card">
+                <style>
+                    @keyframes colorCycle {
+                        0% {
+                            background-color: #ff4d4d;
+                        }
+                        16% {
+                            background-color: #ffb84d;
+                        }
+                        33% {
+                            background-color: #ffff4d;
+                        }
+                        50% {
+                            background-color: #4dff4d;
+                        }
+                        66% {
+                            background-color: #4dd2ff;
+                        }
+                        83% {
+                            background-color: #8c4dff;
+                        }
+                        100% {
+                            background-color: #ff4da6;
+                        }
+                    }
+                    @keyframes sizeCycle {
+                        0% {
+                            transform: scale(1);
+                        }
+                        50% {
+                            transform: scale(2);
+                        }
+                        100% {
+                            transform: scale(1);
+                        }
+                    }
+                    .justice-card {
+                        animation:
+                            colorCycle 3s linear infinite,
+                            sizeCycle 2s linear infinite !important;
+                    }
+                </style>
+                <div class="avatar">
+                    <img
+                        width="100%"
+                        height="100%"
+                        style="object-fit: cover"
+                        src="https://picsum.photos/400"
+                    />
+                </div>
+                <div class="name">
+                    <a href="https://youtu.be/dQw4w9WgXcQ?si=jJxwL8jEUez9i0bm"
+                        >Justice</a
+                    >
+                </div>
+            </div>
+
+            <div class="card tony-card">
+                <style>
+                    /* @keyframes colorCycle { 0% { background-color: #ff4d4d; } 16%  { background-color: #00008B; } 33%  { background-color: #800080; } 50%  { background-color: #4dff4d; }66%  { background-color: #4dd2ff; } 83%  { background-color: #8c4dff; } 100% { background-color: #ff4da6; }} */
+                    @keyframes sizeCycle {
+                        0% {
+                            transform: scale(1);
+                        }
+                        50% {
+                            transform: scale(1.1);
+                        }
+                        100% {
+                            transform: scale(1);
+                        }
+                    }
+                    .tony-card {
+                        animation: sizeCycle 2s linear infinite !important;
+                        background-color: #800080;
+                    }
+                </style>
+                <div class="avatar">
+                    <img
+                        width="100%"
+                        height="100%"
+                        style="object-fit: cover"
+                        src="https://media.discordapp.net/attachments/582103679193186325/1469468367093235723/8C75D216-4A3F-4DD7-A588-74AC2DB8D289.jpeg?ex=6987c490&is=69867310&hm=3cd0a2b433b1b6d831dc61f75480a626173f19cc2ba4076dc2d6acd3ab89f15d&=&format=webp&width=728&height=728"
+                    />
+                </div>
+                <div class="name">
+                    <a href="https://www.linkedin.com/in/tonyvto/">Tony</a>
+                </div>
+            </div>
+
             <div class="card">
                 <div class="avatar">
                     <img
@@ -36,7 +123,41 @@
                     />
                 </div>
                 <div class="name">
-                    <a href="https://www.linkedin.com/in/chatwin-ho-8b8a47240">Chatwin</a>
+                    <a href="https://www.linkedin.com/in/chatwin-ho-8b8a47240"
+                        >Chatwin</a
+                    >
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="avatar">
+                    <img
+                        width="100%"
+                        height="100%"
+                        style="object-fit: cover"
+                        src="clara.png"
+                    />
+                </div>
+                <div class="name">
+                    <a href="https://www.linkedin.com/in/clara-zhang-009497197/"
+                        >Clara</a
+                    >
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="avatar">
+                    <img
+                        width="100%"
+                        height="100%"
+                        style="object-fit: cover"
+                        src="anthony.jpeg"
+                    />
+                </div>
+                <div class="name">
+                    <a href="https://www.linkedin.com/in/anthony-cuturrufo/"
+                        >Anthony</a
+                    >
                 </div>
             </div>
         </div>
