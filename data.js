@@ -336,6 +336,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Zion Quinn",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Rafael Rogers",
         "image": "",
         "link": "https://www.linkedin.com/"
