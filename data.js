@@ -106,6 +106,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Damian Nguyen",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Darius Marshall",
         "image": "",
         "link": "https://www.linkedin.com/"
