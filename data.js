@@ -251,6 +251,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Reid Adams",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Akira Garcia",
         "image": "",
         "link": "https://www.linkedin.com/"
