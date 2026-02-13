@@ -71,6 +71,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Ronan Navarro",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Hayden Davis",
         "image": "",
         "link": "https://www.linkedin.com/"
