@@ -71,6 +71,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Kira Xu",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Cole Lopez",
         "image": "",
         "link": "https://www.linkedin.com/"
