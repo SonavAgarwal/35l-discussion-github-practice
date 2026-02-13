@@ -216,6 +216,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Akira Garcia",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Ruby Romero",
         "image": "",
         "link": "https://www.linkedin.com/"
