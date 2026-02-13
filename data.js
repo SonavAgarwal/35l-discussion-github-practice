@@ -191,6 +191,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Dylan Gibson",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Raina Wong",
         "image": "",
         "link": "https://www.linkedin.com/"
