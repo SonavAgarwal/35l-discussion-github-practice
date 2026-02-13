@@ -181,6 +181,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Amaya Ortiz",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Remy Han",
         "image": "",
         "link": "https://www.linkedin.com/"
