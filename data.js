@@ -136,6 +136,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Harper Russell",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Lina Coleman",
         "image": "",
         "link": "https://www.linkedin.com/"
