@@ -271,6 +271,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Uma Stone",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Sawyer Rogers",
         "image": "",
         "link": "https://www.linkedin.com/"
