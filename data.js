@@ -121,6 +121,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Imani Holland",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Ezra Griffin",
         "image": "",
         "link": "https://www.linkedin.com/"
