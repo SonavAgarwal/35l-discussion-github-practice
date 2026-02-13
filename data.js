@@ -141,6 +141,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Ruby Romero",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Parker Vaughn",
         "image": "",
         "link": "https://www.linkedin.com/"
