@@ -6,6 +6,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Jordan Daniels",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Tobias Ward",
         "image": "",
         "link": "https://www.linkedin.com/"
