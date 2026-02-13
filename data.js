@@ -116,6 +116,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Taylor Gaines",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Blake James",
         "image": "",
         "link": "https://www.linkedin.com/"
