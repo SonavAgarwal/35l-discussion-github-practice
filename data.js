@@ -1,6 +1,11 @@
 // <STARTDATA>
 var attendeeData = [
     {
+        "name": "Addison Zhang",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Add Your Name",
         "image": "",
         "link": "https://www.linkedin.com/"
