@@ -151,6 +151,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Nico Anderson",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Ezra Griffin",
         "image": "",
         "link": "https://www.linkedin.com/"
