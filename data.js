@@ -6,6 +6,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Brooke Gaines",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Addison Zhang",
         "image": "",
         "link": "https://www.linkedin.com/"
