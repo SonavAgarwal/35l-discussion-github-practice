@@ -66,6 +66,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Dahlia Anderson",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Aisha Doyle",
         "image": "",
         "link": "https://www.linkedin.com/"
