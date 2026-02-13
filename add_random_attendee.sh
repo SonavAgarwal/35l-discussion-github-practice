@@ -59,6 +59,10 @@ last_names = [
 with open(data_path, "r", encoding="utf-8") as f:
     script = f.read()
 
+# Fix any accidentally escaped newlines in markers from prior runs.
+script = script.replace("// <STARTDATA>\\n", "// <STARTDATA>\n")
+script = script.replace("\\n// <ENDDATA>", "\n// <ENDDATA>")
+
 start_marker = "// <STARTDATA>"
 end_marker = "// <ENDDATA>"
 start_idx = script.find(start_marker)
@@ -94,8 +98,8 @@ indent = script[line_start:start_idx]
 indented_json = json_str.replace("\\n", "\\n" + indent)
 
 replacement_block = (
-    f"{start_marker}\\n"
-    f"{indent}var attendeeData = {indented_json};\\n"
+    f"{start_marker}\n"
+    f"{indent}var attendeeData = {indented_json};\n"
     f"{end_marker}"
 )
 
