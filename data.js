@@ -31,6 +31,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Avery Romero",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Kai Walker",
         "image": "",
         "link": "https://www.linkedin.com/"
