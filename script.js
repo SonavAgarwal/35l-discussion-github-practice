@@ -53,18 +53,6 @@
         });
     };
 
-    const data = [
-        {
-            name: "Add Your Name",
-            image: "",
-            link: "https://www.linkedin.com/",
-        },
-        {
-            name: "Another Attendee",
-            image: "",
-            link: "https://github.com/",
-        },
-    ];
-
+    const data = Array.isArray(window.attendeeData) ? window.attendeeData : [];
     appendCards(data);
 })();

@@ -2,20 +2,21 @@
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-JSON_FILE="${ROOT_DIR}/attendees.json"
+DATA_FILE="${ROOT_DIR}/data.js"
 
-if [[ ! -f "${JSON_FILE}" ]]; then
-  echo "attendees.json not found at ${JSON_FILE}" >&2
+if [[ ! -f "${DATA_FILE}" ]]; then
+  echo "data.js not found at ${DATA_FILE}" >&2
   exit 1
 fi
 
 new_name="$(
-  python3 - <<'PY' "${JSON_FILE}"
+  python3 - <<'PY' "${DATA_FILE}"
 import json
 import random
 import sys
+import re
 
-json_path = sys.argv[1]
+data_path = sys.argv[1]
 
 first_names = [
     "Alex","Avery","Blake","Casey","Drew","Elliot","Emerson","Hayden","Jamie",
@@ -55,18 +56,26 @@ last_names = [
     "Taylor","Thompson","Vaughn","Walsh","Ward","Watson","Wong","Wright","Yu"
 ]
 
-def load_json(path):
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+with open(data_path, "r", encoding="utf-8") as f:
+    script = f.read()
 
-def save_json(path, data):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
-        f.write("\n")
+start_marker = "// <STARTDATA>"
+end_marker = "// <ENDDATA>"
+start_idx = script.find(start_marker)
+end_idx = script.find(end_marker)
+if start_idx == -1 or end_idx == -1 or end_idx <= start_idx:
+    raise SystemExit("Could not find <STARTDATA> / <ENDDATA> block in data.js.")
 
-data = load_json(json_path)
+block = script[start_idx:end_idx]
+array_start = block.find("[")
+array_end = block.rfind("]")
+if array_start == -1 or array_end == -1 or array_end <= array_start:
+    raise SystemExit("Could not find attendeeData array inside markers.")
+
+array_text = block[array_start:array_end + 1]
+data = json.loads(array_text)
 if not isinstance(data, list):
-    raise SystemExit("attendees.json must be a JSON array.")
+    raise SystemExit("data.js attendeeData must be a JSON array.")
 
 name = f"{random.choice(first_names)} {random.choice(last_names)}"
 entry = {
@@ -77,13 +86,29 @@ entry = {
 
 insert_at = random.randint(0, len(data))
 data.insert(insert_at, entry)
-save_json(json_path, data)
+
+json_str = json.dumps(data, ensure_ascii=False, indent=4)
+
+line_start = script.rfind("\\n", 0, start_idx) + 1
+indent = script[line_start:start_idx]
+indented_json = json_str.replace("\\n", "\\n" + indent)
+
+replacement_block = (
+    f"{start_marker}\\n"
+    f"{indent}var attendeeData = {indented_json};\\n"
+    f"{end_marker}"
+)
+
+script = script[:start_idx] + replacement_block + script[end_idx + len(end_marker):]
+
+with open(data_path, "w", encoding="utf-8") as f:
+    f.write(script)
 
 print(name)
 PY
 )"
 
-git add "${JSON_FILE}"
+git add "${DATA_FILE}"
 git commit -m "Add attendee: ${new_name}"
 
 echo "Added ${new_name}"
