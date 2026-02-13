@@ -121,6 +121,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Nina Levy",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Derek Owens",
         "image": "",
         "link": "https://www.linkedin.com/"
