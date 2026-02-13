@@ -246,6 +246,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Violet Patel",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Parker Vaughn",
         "image": "",
         "link": "https://www.linkedin.com/"
