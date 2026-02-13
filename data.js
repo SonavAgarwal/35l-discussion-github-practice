@@ -13,5 +13,10 @@
         "name": "Another Attendee",
         "image": "",
         "link": "https://github.com/"
+    },
+    {
+        "name": "Derek Owens",
+        "image": "",
+        "link": "https://www.linkedin.com/"
     }
 ];\n// <ENDDATA>
