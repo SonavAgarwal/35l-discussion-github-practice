@@ -361,6 +361,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Mina Russell",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Hugo Duncan",
         "image": "",
         "link": "https://www.linkedin.com/"
