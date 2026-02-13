@@ -176,6 +176,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Jules Stone",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Liam Navarro",
         "image": "",
         "link": "https://www.linkedin.com/"
