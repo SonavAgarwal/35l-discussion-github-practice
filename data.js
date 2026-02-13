@@ -1,4 +1,5 @@
-// <STARTDATA>\nvar attendeeData = [
+// <STARTDATA>
+var attendeeData = [
     {
         "name": "Add Your Name",
         "image": "",
@@ -6,6 +7,11 @@
     },
     {
         "name": "Tobias Ward",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
+        "name": "Amari Gibson",
         "image": "",
         "link": "https://www.linkedin.com/"
     },
@@ -19,4 +25,5 @@
         "image": "",
         "link": "https://www.linkedin.com/"
     }
-];\n// <ENDDATA>
+];
+// <ENDDATA>
