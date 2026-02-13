@@ -91,6 +91,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Asher Ward",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Kai Ramirez",
         "image": "",
         "link": "https://www.linkedin.com/"
