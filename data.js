@@ -71,6 +71,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Darius Marshall",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Owen Gallagher",
         "image": "",
         "link": "https://www.linkedin.com/"
