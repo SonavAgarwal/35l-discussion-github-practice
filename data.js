@@ -291,6 +291,11 @@ var attendeeData = [
         "link": "https://github.com/"
     },
     {
+        "name": "Bianca Carter",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Paige Watson",
         "image": "",
         "link": "https://www.linkedin.com/"
