@@ -191,6 +191,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Cody Duncan",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Enzo Yu",
         "image": "",
         "link": "https://www.linkedin.com/"
