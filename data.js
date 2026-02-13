@@ -346,6 +346,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Iris Quincy",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Jules Stone",
         "image": "",
         "link": "https://www.linkedin.com/"
