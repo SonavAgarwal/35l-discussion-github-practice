@@ -436,6 +436,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Mira Foster",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Quentin Hayes",
         "image": "",
         "link": "https://www.linkedin.com/"
