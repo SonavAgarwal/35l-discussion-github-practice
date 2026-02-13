@@ -361,6 +361,11 @@ var attendeeData = [
         "link": "https://github.com/"
     },
     {
+        "name": "Sam Gaines",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Bianca Carter",
         "image": "",
         "link": "https://www.linkedin.com/"
