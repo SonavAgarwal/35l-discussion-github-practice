@@ -201,6 +201,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Theo Edwards",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Ellie Salazar",
         "image": "",
         "link": "https://www.linkedin.com/"
