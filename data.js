@@ -206,6 +206,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Amir Gallagher",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Esme Shah",
         "image": "",
         "link": "https://www.linkedin.com/"
