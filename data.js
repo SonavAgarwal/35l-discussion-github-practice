@@ -386,6 +386,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Rhea Hendrix",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Jordan Fleming",
         "image": "",
         "link": "https://www.linkedin.com/"
