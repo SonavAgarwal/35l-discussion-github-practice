@@ -101,6 +101,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Hugo Adams",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Dylan Gordon",
         "image": "",
         "link": "https://www.linkedin.com/"
