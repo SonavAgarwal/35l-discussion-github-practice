@@ -356,6 +356,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Selah Donovan",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Violet Patel",
         "image": "",
         "link": "https://www.linkedin.com/"
