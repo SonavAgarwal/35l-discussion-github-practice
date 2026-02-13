@@ -416,6 +416,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Clara Nguyen",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Nina Levy",
         "image": "",
         "link": "https://www.linkedin.com/"
