@@ -296,6 +296,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Emerson Shah",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Parker Vaughn",
         "image": "",
         "link": "https://www.linkedin.com/"
