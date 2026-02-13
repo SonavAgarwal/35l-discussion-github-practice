@@ -321,6 +321,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Rhea Yu",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Another Attendee",
         "image": "",
         "link": "https://github.com/"
