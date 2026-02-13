@@ -46,6 +46,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Pia Montgomery",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Hayden Davis",
         "image": "",
         "link": "https://www.linkedin.com/"
