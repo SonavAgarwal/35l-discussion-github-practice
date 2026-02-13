@@ -121,6 +121,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Raina Wong",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Lina Coleman",
         "image": "",
         "link": "https://www.linkedin.com/"
