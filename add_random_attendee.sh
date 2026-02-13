@@ -113,6 +113,6 @@ PY
 )"
 
 git add "${DATA_FILE}"
-git commit -m "Add attendee: ${new_name}"
+git commit -m "Update attendees"
 
 echo "Added ${new_name}"
