@@ -56,6 +56,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Gideon Ellis",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Alina Singh",
         "image": "",
         "link": "https://www.linkedin.com/"
