@@ -161,6 +161,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Nadia Sanders",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Alex Reynolds",
         "image": "",
         "link": "https://www.linkedin.com/"
