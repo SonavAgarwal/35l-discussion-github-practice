@@ -231,6 +231,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Imani Gaines",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Harris Pearson",
         "image": "",
         "link": "https://www.linkedin.com/"
