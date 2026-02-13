@@ -311,6 +311,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Leah Gallagher",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Stella Campbell",
         "image": "",
         "link": "https://www.linkedin.com/"
