@@ -46,6 +46,11 @@ var attendeeData = [
         "link": "https://www.linkedin.com/"
     },
     {
+        "name": "Amelia Yu",
+        "image": "",
+        "link": "https://www.linkedin.com/"
+    },
+    {
         "name": "Gemma Patel",
         "image": "",
         "link": "https://www.linkedin.com/"
